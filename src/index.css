@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@font-face {
+  font-family: jerome; /* A name you choose for your font */
+  src: url("././assets/fonts/jerome.regular.ttf") format("truetype");
+  font-weight: normal; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+
+@font-face {
+  font-family: bigFont; /* A name you choose for your font */
+  src: url("././assets/fonts/Brigends Expanded.otf") format("opentype");
+  font-weight: normal; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+
+body {
+  /* font-family: "jerome"; */
+  font-family: "Work Sans";
+  /* @apply font-jerome; */
+}
+
+@theme {
+  --animate-move: move 6s ease infinite;
+  --animate-move2: move2 6s 1.5s ease infinite;
+  --font-jerome: jerome;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-0px);
+  }
+  100% {
+    transform: translateY(700px);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(700px);
+  }
+}
+
+.mobile-hero {
+  @apply max-lg:text-6xl max-lg:leading-20 max-lg:bg-[url('././assets/img/car-removebg-preview.png')] max-lg:text-[#1a1a1a]/20   bg-cover border h-[290px] bg-no-repeat max-lg:bg-clip-text;
+  font-family:bigFont;
+  background-position: 700px;
+  animation: carMove 5s ease infinite forwards;
+}
+
+@keyframes carMove {
+  to {
+    background-position: -700px;
+  }
+}
