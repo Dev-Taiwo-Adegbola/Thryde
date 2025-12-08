@@ -5,7 +5,7 @@ const DownloadThrydeSection = () => {
     <section className=" max-lg:p-0 p-20 text-white ">
       <div className="flex items-center justify-between max-lg:px-6  max-lg:py-5 py-8 px-20 max-lg:rounded-none rounded-2xl bg-[#532ea8] overflow-hidden bg-[url('././assets/img/track1.png')] bg-no-repeat bg-position-[300px] max-lg:bg-position-[50px]  bg-cover ">
         <div className="flex flex-col items-start justify-center max-lg:gap-3 gap-8 h-[300px] max-lg:h-fit max-md:w-full w-[40%]">
-          <h3 className="max-lg:text-2xl text-5xl font-semibold font-jerome">
+          <h3 className="max-lg:text-2xl text-5xl  font-jerome">
             Download Thryde
           </h3>
           <p className="max-md:hidden">

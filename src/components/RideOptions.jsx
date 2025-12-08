@@ -2,9 +2,9 @@ import howWeWork from "../assets/img/hwwpng.png";
 import HeroImg2 from "../assets/img/heroImg2-removebg-preview.png";
 const RideOptions = () => {
   return (
-    <section className="flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
+    <section className="relative overflow-hidden flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
       <div className="text-center text-[#1a1a1a] w-[50%] max-lg:w-full">
-        <h2 className="text-4xl font-semibold mb-5 font-jerome">
+        <h2 className="text-4xl  mb-5 font-jerome">
           Our Ride Options
         </h2>
         <p className="">

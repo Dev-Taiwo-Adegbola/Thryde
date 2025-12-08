@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="">
       <div className="relative overflow-hidden flex items-center justify-between  w-full max-lg:h-[300px]  h-[500px] max-lg:bg-[url('././assets/img/footerImg.png')] bg-no-repeat md:max-lg:bg-position-[420px]  bg-position-[190px] max-lg:pl-8 pl-20 ">
         <div className="w-[40%] max-md:w-[60%] flex flex-col gap-4">
-          <h3 className="max-lg:text-4xl text-6xl font-black font-jerome max-lg:mb-2  mb-5 ">
+          <h3 className="max-lg:text-4xl text-6xl  font-jerome max-lg:mb-2  mb-5 ">
             Register and order your ride
           </h3>
           <p className=" ">

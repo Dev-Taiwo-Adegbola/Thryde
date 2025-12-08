@@ -2,9 +2,9 @@ import howWeWork from "../assets/img/hwwpng.png";
 
 const HowWeWork = () => {
   return (
-    <section className="flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
+    <section className="relative overflow-hidden flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
       <div className="text-center text-[#1a1a1a] max-lg:w-full w-[50%]">
-        <h2 className="text-4xl font-semibold mb-5 font-jerome">
+        <h2 className="text-4xl  mb-5 font-jerome">
           How Thryde Works
         </h2>
         <p className="">

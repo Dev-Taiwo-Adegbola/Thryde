@@ -5,9 +5,9 @@ import HeroImg2 from "../assets/img/heroImg2-removebg-preview.png";
 
 const Hero = () => {
   return (
-    <section className="max-md:px-5 md:px-20 flex max-lg:flex-col items-center bg-[url('././assets/img/Hero.png')] bg-cover bg-no-repeat w-full max-md:py-15 py-25 max-lg:gap-10">
+    <section className="relative overflow-hidden max-md:px-5 md:px-20 flex max-lg:flex-col items-center bg-[url('././assets/img/Hero.png')] bg-cover bg-no-repeat w-full max-md:py-15 py-25 max-lg:gap-10">
       <div className="flex flex-col gap-10 max-lg:w-full  max-lg:items-center w-[40%] max-lg:text-center">
-        <h1 className="*mobile-hero text-6xl font-semibold lg:text-[#1a1a1a] leading-15 lg:font-jerome">
+        <h1 className="*mobile-hero text-6xl  lg:text-[#1a1a1a] leading-15 font-jerome">
           Your Smooth Ride, Just a Tap Away
         </h1>
         <p className="text-[#1a1a1a]">
@@ -15,7 +15,7 @@ const Hero = () => {
           around your city. Thryde delivers convenience, transparency, and
           comfort every step of the way.
         </p>
-        <span className="flex max-lg:flex-col gap-5">
+        <span className="flex max-md:flex-col gap-5">
           <AppDownloadBtn platform={"Google Play"} icon={<GooglePlay />} />
           <AppDownloadBtn platform={"App Store"} icon={<AppStore />} />
           <button></button>
