@@ -2,9 +2,9 @@ import howWeWork from "../assets/img/hwwpng.png";
 
 const HowWeWork = () => {
   return (
-    <section className="relative overflow-hidden flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
+    <section id="how-thryde-works" className="relative overflow-hidden flex flex-col gap-y-15 justify-center max-md:px-8   px-20  items-center py-8">
       <div className="text-center text-[#1a1a1a] max-lg:w-full w-[50%]">
-        <h2 className="text-4xl  mb-5 font-jerome">
+        <h2 className="text-4xl text-[#15d46d]  mb-5 font-jerome">
           How Thryde Works
         </h2>
         <p className="">
@@ -19,7 +19,7 @@ const HowWeWork = () => {
             <span className="bg-[#15d46d]/15 text-[#15d46d] text-2xl font-semibold size-15 flex items-center justify-center  rounded-full">
               1
             </span>
-            <span className=" font-semibold text-[#1a1a1a]">For Riders</span>
+            <span className=" font-semibold text-[#15d46d]">For Riders</span>
             <span className="">
               Book a ride in seconds, track your driver live, enjoy transparent
               fares, and move comfortably to your destination.{" "}
@@ -38,7 +38,7 @@ const HowWeWork = () => {
             <span className="bg-[#15d46d]/15 text-[#15d46d] text-2xl font-semibold size-15 flex items-center justify-center  rounded-full">
               2
             </span>
-            <span className=" font-semibold text-[#1a1a1a]">For Drivers</span>
+            <span className=" font-semibold text-[#15d46d]">For Drivers</span>
             <span className="">
               Earn more with flexible hours, transparent commissions, instant
               payouts, and a supportive driver community. Drive on your
@@ -51,7 +51,7 @@ const HowWeWork = () => {
             <span className="bg-[#15d46d] text-white text-2xl font-semibold size-15 flex items-center justify-center  rounded-full">
               3
             </span>
-            <span className=" font-semibold text-[#1a1a1a]">
+            <span className=" font-semibold text-[#15d46d]">
               For Businesses
             </span>
             <span className="">
@@ -65,7 +65,7 @@ const HowWeWork = () => {
             <span className="bg-[#15d46d]/15 text-[#15d46d] text-2xl font-semibold size-15 flex items-center justify-center  rounded-full">
               4
             </span>
-            <span className=" font-semibold text-[#1a1a1a]">
+            <span className=" font-semibold text-[#15d46d]">
               Thryde For All
             </span>
             <span className="">

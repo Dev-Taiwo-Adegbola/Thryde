@@ -1,13 +1,13 @@
-import { AppStore, GooglePlay } from "./AllIcons";
+import { AppStore, Cars, GooglePlay, Users } from "./AllIcons";
 import AppDownloadBtn from "./AppDownloadBtn";
 import HeroImg from "../assets/img/buying-a-black-car-removebg-preview.png";
 import HeroImg2 from "../assets/img/heroImg2-removebg-preview.png";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden max-md:px-5 md:px-20 flex max-lg:flex-col items-center bg-[url('././assets/img/Hero.png')] bg-cover bg-no-repeat w-full max-md:py-15 py-25 max-lg:gap-10">
-      <div className="flex flex-col gap-10 max-lg:w-full  max-lg:items-center w-[40%] max-lg:text-center">
-        <h1 className="*mobile-hero text-6xl  lg:text-[#1a1a1a] leading-15 font-jerome">
+    <section className="mt-24 relative overflow-hidden max-md:px-5 md:px-20 flex max-lg:flex-col items-center bg-[url('././assets/img/Hero.png')] bg-cover bg-no-repeat w-full max-md:py-15 py-25 max-lg:gap-10">
+      <div className="flex flex-col gap-10 max-lg:w-full  max-lg:items-center w-[45%] max-lg:text-center">
+        <h1 className="*mobile-hero text-6xl  text-[#15d46d] leading-15 font-jerome">
           Your Smooth Ride, Just a Tap Away
         </h1>
         <p className="text-[#1a1a1a]">
@@ -16,8 +16,20 @@ const Hero = () => {
           comfort every step of the way.
         </p>
         <span className="flex max-md:flex-col gap-5">
-          <AppDownloadBtn platform={"Google Play"} icon={<GooglePlay />} />
-          <AppDownloadBtn platform={"App Store"} icon={<AppStore />} />
+          <AppDownloadBtn
+            platform={"Users - Google Play"}
+            icon={<Users style={"w-10 h-10 fill-white stroke-2"} />}
+            link={
+              "https://play.google.com/store/apps/details?id=com.thryde.user"
+            }
+          />
+          <AppDownloadBtn
+            platform={"Drivers - Google Play"}
+            icon={<Cars style={"w-10 h-10 fill-white stroke-2"} />}
+            link={
+              "https://play.google.com/store/apps/details?id=com.thryde.driver"
+            }
+          />
           <button></button>
         </span>
       </div>

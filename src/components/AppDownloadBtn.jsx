@@ -1,12 +1,12 @@
-const AppDownloadBtn = ({ platform, icon }) => {
+const AppDownloadBtn = ({ platform, icon, link }) => {
   return (
-    <button className="flex justify-between items-center gap-4 bg-[#1a1a1a] p-5 rounded-xl text-white ">
+    <a href={link} className="flex justify-between items-center gap-4 bg-[#1a1a1a] p-5 rounded-xl text-white min-w-fit ">
       {icon}
       <span className="flex flex-col items-start">
-        <span className="font-semibold">Download on the</span>
+        <span className="font-semibold">Download For</span>
         <span className="">{platform}</span>
       </span>
-    </button>
+    </a>
   );
 };
 export default AppDownloadBtn;
