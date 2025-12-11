@@ -18,7 +18,12 @@ const ContactUs = () => {
                 Thryde
               </h1>
             </div>
-            <a href="/" className="font-semibold hover:text-[#532ea8] text-white p-3 rounded-2xl"><span className="text-3xl">&larr;</span> Go back Home</a>
+            <a
+              href="/"
+              className="font-semibold hover:text-[#532ea8] text-white p-3 rounded-2xl"
+            >
+              <span className="text-3xl">&larr;</span> Go back'
+            </a>
           </div>
           <h1 className="text-5xl font-semibold">Talk to our team</h1>
           <p className="mt-5 text-lg">
