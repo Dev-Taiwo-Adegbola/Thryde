@@ -10,8 +10,8 @@ const ContactUs = () => {
   return (
     <div id="contactUs" className=" flex items-center max-lg:flex-col  ">
       <div className="overflow-hidden flex flex-col justify-between w-[50%] max-lg:w-full bg-[#15d46d] max-lg:pl-10 max-lg:pt-10 pl-20 pt-20 lg:h-screen md:h-[80vh] sm:h-[90vh]  text-white ">
-        <div className="">
-          <div className="flex items-center justify-between mb-10 pr-5 ">
+        <div className=" pr-5">
+          <div className="flex items-center justify-between mb-8  ">
             <div className="flex items-center gap-4 ">
               <img src={thrydeLogo} alt="" className="w-[45px] mt-auto" />
               <h1 className="text-3xl font-semibold font-jerome tracking-wide text-[#532ea8]">
@@ -22,13 +22,32 @@ const ContactUs = () => {
               href="/"
               className="font-semibold hover:text-[#532ea8] text-white p-3 rounded-2xl"
             >
-              <span className="text-3xl">&larr;</span> Go back'
+              <span className="text-3xl">&larr;</span> Go back
             </a>
           </div>
-          <h1 className="text-5xl font-semibold">Talk to our team</h1>
+          <h1 className="text-4xl font-semibold">Talk to our team</h1>
           <p className="mt-5 text-lg">
             We’re here to assist you. Reach out for support, partnerships,
             business inquiries, or feedback.
+          </p>
+          <p className="mt-5">
+            <span className="font-semibold text-[#532ea8]">Head Office: </span>
+            205, Oyemekun Road, Akure, Ondo State
+          </p>
+
+          <p className="">
+            <span className="font-semibold text-[#532ea8]">Branch Office:</span>{" "}
+            2nd Floor, 131,Ademulegun road, Former NEPA Office, Ondo city, Ondo
+            State
+          </p>
+          <p className="">
+            <span className="font-semibold text-[#532ea8]">Phone:</span>{" "}
+            08070772145
+          </p>
+
+          <p className="">
+            <span className="font-semibold text-[#532ea8]">Email:</span>{" "}
+            smartthryde@gmail.com
           </p>
         </div>
         <img src={footerImg} alt="" className="" />
@@ -45,7 +64,7 @@ const ContactUs = () => {
         <input
           type="hidden"
           name="access_key"
-          value="1c9655d2-4947-478d-8ce9-87846f016af7"
+          value="fd03389d-1188-4ca9-ad4e-32ead58670db"
         ></input>
         <input type="hidden" name="redirect" value="false"></input>
         <input

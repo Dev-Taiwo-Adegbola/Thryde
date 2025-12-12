@@ -29,14 +29,13 @@ const Footer = () => {
             <h3 className="text-3xl font-semibold text-[#15d46d] ">Thryde</h3>
           </div>
           <p className="">
-            <span className="font-semibold">Head Office:</span>
-            2nd Floor, 131,Ademulegun road, Former NEPA Office, Ondo city, Ondo
-            State
+            <span className="font-semibold">Head Office: </span>
+            205, Oyemekun Road, Akure, Ondo State
           </p>
 
           <p className="">
-            <span className="font-semibold">Branch Office:</span> 205, Oyemekun
-            Road, Akure, Ondo State
+            <span className="font-semibold">Branch Office:</span> 2nd Floor,
+            131,Ademulegun road, Former NEPA Office, Ondo city, Ondo State
           </p>
           <p className="">
             <span className="font-semibold">Phone:</span> 08070772145
